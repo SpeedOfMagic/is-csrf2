@@ -1,8 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Cookie and Redirect</title>
+</head>
+<body>
+    <script>
+        // Set the cookie
+        document.cookie = "a=b; path=/;";
 
-<html>
-	<head>
-	</head>
-<script>
- window.location.href = "http://158.160.24.37:5000/page.html"
-</script>
+        // Redirect to example.com
+        window.location.href = "http://158.160.24.37:5000/page.html";
+    </script>
+    <p>If you are not redirected automatically, follow this <a href="http://158.160.24.37:5000/page.html">link</a>.</p>
+</body>
 </html>
